@@ -7,9 +7,9 @@ This repository contains the official implementation of **MFG-DETR**, a lightwei
 
 ## 🚀 Abstract
 
-Ensuring workers' compliance with safety helmet regulations is critical for occupational safety. [cite_start]However, existing methods often struggle with small-object recognition, environmental complexity, and deployment constraints on edge devices[cite: 4, 5]. 
+Ensuring workers' compliance with safety helmet regulations is critical for occupational safety. However, existing methods often struggle with small-object recognition, environmental complexity, and deployment constraints on edge devices. 
 
-To address these challenges, we propose **MFG-DETR**. [cite_start]Built upon the RT-DETR architecture, MFG-DETR integrates three novel modules[cite: 7, 8]:
+To address these challenges, we propose **MFG-DETR**. Built upon the RT-DETR architecture, MFG-DETR integrates three novel modules:
 
 1.  **Multi-scale Lightweight Edge Detector (MLE):** Combines adaptive pooling and frequency-based edge enhancement to improve small-object localization.
 2.  **Synergistic Dual-Stage Attention Fusion (SDSA-Fusion):** Employes global-local attention and content-guided pixel-level gating to enhance feature fusion under occlusion.
@@ -17,7 +17,7 @@ To address these challenges, we propose **MFG-DETR**. [cite_start]Built upon the
 
 ## 🏆 Performance
 
-[cite_start]Extensive experiments on **GDUT+AIGC**, **SHWD**, and **SHEL5K** datasets demonstrate that MFG-DETR achieves state-of-the-art accuracy with minimal computational overhead[cite: 9].
+Extensive experiments on **GDUT-HWD + AIGC-HWD**, **SHWD**, and **SHEL5K** datasets demonstrate that MFG-DETR achieves state-of-the-art accuracy with minimal computational overhead.
 
 **Comparison on GDUT+AIGC Dataset:**
 
@@ -29,9 +29,9 @@ To address these challenges, we propose **MFG-DETR**. [cite_start]Built upon the
 | **MFG-DETR (Ours)** | **90.67** | **76.81** | **14.87** | **51.20** | **312.34** |
 
 > **Highlights:**
-> [cite_start]* **High Accuracy:** 90.67% mAP@0.5[cite: 9].
-> [cite_start]* **Lightweight:** Only 14.87 MB parameters (approx. 25% reduction compared to RT-DETR-r18)[cite: 467, 468].
-> [cite_start]* **Real-time:** >300 FPS on RTX 4090[cite: 9].
+> [cite_start]* **High Accuracy:** 90.67% mAP@0.5.
+> [cite_start]* **Lightweight:** Only 14.87 MB parameters (approx. 25% reduction compared to RT-DETR-r18).
+> [cite_start]* **Real-time:** >300 FPS on RTX 4090.
 
 ## 📂 Code Download
 
@@ -45,7 +45,7 @@ We are currently finalizing the code organization. Once the paper is accepted, w
 
 ## 🛠️ Environment
 
-[cite_start]The model was developed and tested under the following environment[cite: 423]:
+[cite_start]The model was developed and tested under the following environment:
 
 * **OS:** Windows 11
 * **Python:** 3.10.16
