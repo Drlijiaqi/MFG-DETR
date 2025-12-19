@@ -29,9 +29,9 @@ Extensive experiments on **GDUT-HWD + AIGC-HWD**, **SHWD**, and **SHEL5K** datas
 | **MFG-DETR (Ours)** | **90.67** | **76.81** | **14.87** | **51.20** | **312.34** |
 
 > **Highlights:**
-> [cite_start]* **High Accuracy:** 90.67% mAP@0.5.
-> [cite_start]* **Lightweight:** Only 14.87 MB parameters (approx. 25% reduction compared to RT-DETR-r18).
-> [cite_start]* **Real-time:** >300 FPS on RTX 4090.
+> * **High Accuracy:** 90.67% mAP@0.5.
+> * **Lightweight:** Only 14.87 MB parameters (approx. 25% reduction compared to RT-DETR-r18).
+> * **Real-time:** >300 FPS on RTX 4090.
 
 ## 📂 Code Download
 
@@ -40,8 +40,6 @@ Extensive experiments on **GDUT-HWD + AIGC-HWD**, **SHWD**, and **SHEL5K** datas
 We are currently finalizing the code organization. Once the paper is accepted, we will upload the following:
 * Complete source code for MFG-DETR.
 * Training and inference scripts.
-* Pre-trained weights.
-* Configuration files for the datasets.
 
 ## 🛠️ Environment
 
