@@ -35,7 +35,7 @@ Extensive experiments on **GDUT-HWD + AIGC-HWD**, **SHWD**, and **SHEL5K** datas
 
 ## 📂 Code Download
 
-**The full code will be released after the paper is accepted.**
+**The paper is about to be published in Automation in Construction, and we are currently organizing the code, which will be released in April 2026.**
 
 We are currently finalizing the code organization. Once the paper is accepted, we will upload the following:
 * Complete source code for MFG-DETR.
@@ -57,9 +57,9 @@ We are currently finalizing the code organization. Once the paper is accepted, w
 If you find this work helpful for your research, please consider citing:
 
 ```bibtex
-@article{mfg_detr_2025,
+@article{mfg_detr_2026,
   title={MFG-DETR: Real-time Safety Helmet Detection via a Multi-scale Feature-Gated Fusion Framework},
   author={Hao Zhang; Jiaqi Li; Zhaobo Li; Lingjie Kong; Xuefeng Zhao},
   journal={Automation in Construction},
-  year={2025}
+  year={2026}
 }
