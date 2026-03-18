@@ -37,10 +37,6 @@ Extensive experiments on **GDUT-HWD + AIGC-HWD**, **SHWD**, and **SHEL5K** datas
 
 **The paper is about to be published in Automation in Construction, and we are currently organizing the code, which will be released in April 2026.**
 
-We are currently finalizing the code organization. Once the paper is accepted, we will upload the following:
-* Complete source code for MFG-DETR.
-* Training and inference scripts.
-
 ## 🛠️ Environment
 
 [cite_start]The model was developed and tested under the following environment:
